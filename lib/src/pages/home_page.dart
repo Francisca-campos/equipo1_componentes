@@ -1,4 +1,3 @@
-import 'package:equipo1_componentes/src/pages/alert_page.dart';
 import 'package:equipo1_componentes/src/providers/menu_provider.dart';
 import 'package:equipo1_componentes/src/utils/icono_string_util.dart';
 import 'package:flutter/material.dart';
