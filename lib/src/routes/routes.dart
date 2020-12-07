@@ -1,5 +1,6 @@
 import 'package:equipo1_componentes/src/pages/animated_container.dart';
 import 'package:equipo1_componentes/src/pages/card_page.dart';
+import 'package:equipo1_componentes/src/pages/input_page.dart';
 import 'package:flutter/material.dart';
 import 'package:equipo1_componentes/src/pages/alert_page.dart';
 import 'package:equipo1_componentes/src/pages/avatar_page.dart';
@@ -12,5 +13,6 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     'avatar': (BuildContext context) => AvatarPage(),
     'card': (BuildContext context) => CardPage(),
     'animatedContainer': (BuildContext context) => AnimateContainerPage(),
+    'inputs': (BuildContext context) => InputPage(),
   };
 }
